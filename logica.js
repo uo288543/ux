@@ -79,7 +79,7 @@ async function search(aBuscar) {
         results.forEach(item => {
             const link = document.createElement('a');
             link.href = item.url;
-            link.textContent = item.text + ' (' + item.url + ')';
+            link.textContent = item.text + ' (' + 'ux/' + item.url + ')';
             resultsContainer.appendChild(link);
         });
     }
@@ -103,3 +103,4 @@ deleteBtn.addEventListener('click', () => {
     }
 
 });
+

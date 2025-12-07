@@ -78,7 +78,7 @@ async function search(aBuscar) {
         //crear un enlace a la página correspondiente por cada resultado encontrado
         results.forEach(item => {
             const link = document.createElement('a');
-            link.href = item.url;
+            link.href = 'ux' +item.url;
             link.textContent = item.text + ' (' + 'ux' + item.url + ')';
             resultsContainer.appendChild(link);
         });
@@ -103,6 +103,7 @@ deleteBtn.addEventListener('click', () => {
     }
 
 });
+
 
 
 

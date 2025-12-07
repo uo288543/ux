@@ -60,19 +60,23 @@
         <p data-id="footer">&copy; Hugo Méndez Fernández - Última actualización: 04/12/2025</p>
     </footer>
 
-<script src="https://app.realeye.io/sdk/js/testRunnerEmbeddableSdk-latest.js" async></script>
-<script>
-window.addEventListener("DOMContentLoaded", () => {
-    const debugMode = false;
-    const stimulusId = "4d284be7-d106-4569-9078-e9ad7c788574";
-    const forceRun = false;
+    <script type="module">
+    
+    import EmbeddedPageSdk from "https://app.realeye.io/sdk/js/testRunnerEmbeddableSdk-latest.js"
+    
+    window.addEventListener("DOMContentLoaded", () => {
+       const debugMode = false;
+       const stimulusId = "4d284be7-d106-4569-9078-e9ad7c788574"; // Or Stimulus/Item UUID from RealEye Study, e.g. "61560b76-3d31-4f0e-b530-55bd8709aadb"
+       const forceRun = false;
+    
+       const reSdk = new EmbeddedPageSdk(debugMode, stimulusId, forceRun)
+    });
 
-    const reSdk = new REAL_EYE.EmbeddedPageSdk(debugMode, stimulusId, forceRun);
-});
 </script>
     <script src="logica.js"></script>
 </body>
 </html>
+
 
 
 

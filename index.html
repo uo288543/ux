@@ -22,9 +22,9 @@
 </head>
 <body>
     <header>
-        <h1 data-id="index_h1">Sitio web personal - Inicio</h1>
+        <h1 data-id="index_h1  data-re-aoi-name="titulo"">Sitio web personal - Inicio</h1>
 
-        <section>
+        <section  data-re-aoi-name="lang">
             <button data-id="btn_es" data-lang="es">ESP</button>
             <button data-id="btn_en" data-lang="en">ENG</button>
         </section>
@@ -39,7 +39,7 @@
         </nav>
 
         <section>
-            <input id="buscador_web" type="text" data-i18n-placeholder="buscar_placeholder" placeholder="Buscar contenido...">
+            <input  data-re-aoi-name="buscador" id="buscador_web" type="text" data-i18n-placeholder="buscar_placeholder" placeholder="Buscar contenido...">
             <button data-id="buscar_btn">Buscar</button>
             <button data-id="eliminar_btn">Eliminar</button>
         </section>
@@ -48,7 +48,7 @@
 
     <main>
         <section>
-            <h2 data-id="quien_soy">¿Quién soy?</h2>
+            <h2 data-id="quien_soy" data-re-aoi-name="quiensoy">¿Quién soy?</h2>
             <p data-id="texto_quien_soy">Soy Hugo Méndez Fernández, tengo 22 años, ingeniero de software, y alumno del Máster en Ingeniería Web.</p>
             <p>
                 <span data-id="contacto">La forma más rápida de contactarme es mediante mi correo electrónico:</span>
@@ -61,23 +61,24 @@
         </section>
 
         <section>
-            <h2 data-id="datos_sobre_mi">Datos sobre mí</h2>
+            <h2 data-id="datos_sobre_mi"  data-re-aoi-name="sobremi">Datos sobre mí</h2>
             <p data-id="origen">Soy del occidente de Asturias.</p>
             <p data-id="color_favorito">Mi color favorito es el rojo.</p>
             <p data-id="animal_favorito">Mi animal favorito es el oso panda.</p>
-            <img src="img/bandera_asturias.webp" alt="Bandera del Principado de Asturias" data-id="img_alt_asturias">
+            <img src="img/bandera_asturias.webp" alt="Bandera del Principado de Asturias" data-id="img_alt_asturias"  data-re-aoi-name="asturiasbandera">
         </section>
 
     </main>
 
     <footer>
-        <p data-id="footer">&copy; Hugo Méndez Fernández - Última actualización: 04/12/2025</p>
+        <p data-id="footer"  data-re-aoi-name="footer">&copy; Hugo Méndez Fernández - Última actualización: 04/12/2025</p>
     </footer>
 
 
     <script src="logica.js"></script>
 </body>
 </html>
+
 
 
 

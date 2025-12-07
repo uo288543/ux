@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-id="tech_titulo">Web personal - Tecnologías favoritas</title>
+    <link href="style.css" rel="Stylesheet">
+</head>
+<body>
+    <header>
+        <h1 data-id="tech_h1">Sitio web personal - Tecnologías favoritas</h1>
+        
+        <section>
+            <button data-id="btn_es" data-lang="es">ESP</button>
+            <button data-id="btn_en" data-lang="en">ENG</button>
+        </section>
+
+        <nav>
+            <ul>
+                <li><a href="index.html" data-id="nav_inicio">Inicio</a></li>
+                <li><a href="aficiones.html" data-id="nav_aficiones">Aficiones</a></li>
+                <li><a href="tecnologías_favoritas.html" data-id="nav_tech">Tecnologías favoritas</a></li>
+                <li><a href="experiencia.html" data-id="nav_experiencia">Experiencia</a></li>
+            </ul>
+        </nav>
+
+        <section>
+            <input id="buscador_web" type="text" data-i18n-placeholder="buscar_placeholder" placeholder="Buscar contenido...">
+            <button data-id="buscar_btn">Buscar</button>
+            <button data-id="eliminar_btn">Eliminar</button>
+        </section>
+    </header>
+    
+    <main>
+        <section>
+            <h2 data-id="frontend_titulo">Frontend</h2>
+            <p data-id="frontend_desc">Mis tecnologías favoritas para desarrollar el frontend de un sitio web.</p>
+            <ul>
+                <li data-id="frontend_1">React</li>
+                <li data-id="frontend_2">VueJS</li>
+                <li data-id="frontend_3">MaterialUI</li>
+                <li data-id="frontend_4">TailwindCSS</li>
+            </ul>
+            <img src="img/react.png" alt="Logotipo de React" data-id="frontend_img_alt">
+        </section>
+
+        <section>
+            <h2 data-id="backend_titulo">Backend</h2>
+            <p data-id="backend_desc">Mis tecnologías favoritas para desarrollar el backend de un sitio web.</p>
+            <ul>
+                <li data-id="backend_1">Express.js</li>
+                <li data-id="backend_2">FastAPI</li>
+                <li data-id="backend_3">SpringBoot</li>
+            </ul>
+            <img src="img/expressjs.png" alt="Logotipo de ExpressJS" data-id="backend_img_alt">
+        </section>
+
+    </main>
+
+    <footer>
+        <p data-id="footer">&copy; Hugo Méndez Fernández - Última actualización: 04/12/2025</p>
+    </footer>
+
+    <script src="logica.js"></script>
+</body>
+</html>

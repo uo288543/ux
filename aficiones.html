@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-id="aficiones_titulo">Web personal - Aficiones</title>
+    <link href="style.css" rel="Stylesheet">
+</head>
+<body>
+    <header>
+        <h1 data-id="aficiones_h1">Sitio web personal - Aficiones</h1>
+        
+        <section>
+            <button data-id="btn_es" data-lang="es">ESP</button>
+            <button data-id="btn_en" data-lang="en">ENG</button>
+        </section>
+
+        <nav>
+            <ul>
+                <li><a href="index.html" data-id="nav_inicio">Inicio</a></li>
+                <li><a href="aficiones.html" data-id="nav_aficiones">Aficiones</a></li>
+                <li><a href="tecnologías_favoritas.html" data-id="nav_tech">Tecnologías favoritas</a></li>
+                <li><a href="experiencia.html" data-id="nav_experiencia">Experiencia</a></li>
+            </ul>
+        </nav>
+
+        <section>
+            <input id="buscador_web" type="text" data-i18n-placeholder="buscar_placeholder" placeholder="Buscar contenido...">
+            <button data-id="buscar_btn">Buscar</button>
+            <button data-id="eliminar_btn">Eliminar</button>
+        </section>
+    </header>
+
+    <main>
+        <section>
+            <h2 data-id="mis_aficiones">Mis aficiones</h2>
+            <p data-id="texto_aficiones_1">Me gusta el mundo del motor, especialmente los coches y las motos. Por ello, la Formula1 es mi deporte favorito.</p>
+            <p data-id="texto_aficiones_2">Lo que más hago diariamente es escuchar música, siempre estoy escuchando música.
+                Mis gustos musicales son amplios, abarcando múltiples géneros. Mis artistas más escuchados el último año son
+                 HardGZ, Natos y Waor, Ana Mena, Dua Lipa y Dirty Suc.</p>
+            <p data-id="texto_aficiones_3">Otra de mis aficiones principales son los videojuegos.</p>
+        </section>
+
+        <section>
+            <h2 data-id="mis_pilotos">Mis pilotos favoritos</h2>
+            <ol>
+                <li data-id="piloto_1">Fernando Alonso</li>
+                <li data-id="piloto_2">Max Verstappen</li>
+                <li data-id="piloto_3">Carlos Sainz</li>
+                <li data-id="piloto_4">Alex Palou</li>
+                <li data-id="piloto_5">Dani Juncadella</li>
+            </ol>
+            <img src="img/alonso.avif" alt="Fernando Alonso celebrando una victoria" data-id="img_alt_alonso">
+        </section>
+
+         <section>
+            <h2 data-id="mis_videojuegos">Mis videojuegos favoritos</h2>
+            <ol>
+                <li data-id="videojuego_1">Rust</li>
+                <li data-id="videojuego_2">League of Legends</li>
+                <li data-id="videojuego_3">ARK: Survival Evolved</li>
+                <li data-id="videojuego_4">Satisfactory</li>
+                <li data-id="videojuego_5">Rocket League</li>
+                <li data-id="videojuego_6">Euro Truck Simulator 2</li>
+            </ol>
+            <img src="img/rust.png" alt="Ilustración del videojuego Rust" data-id="img_alt_rust">
+        </section>
+
+    </main>
+
+    <footer>
+        <p data-id="footer">&copy; Hugo Méndez Fernández - Última actualización: 04/12/2025</p>
+    </footer>
+
+    <script src="logica.js"></script>
+</body>
+</html>

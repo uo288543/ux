@@ -104,6 +104,19 @@ deleteBtn.addEventListener('click', () => {
 
 });
 
+document.addEventListener("DOMContentLoaded", () => {
+    const params = new URLSearchParams(window.location.search);
+    const dataId = params.get("dataId");
+
+    if (dataId) {
+        const target = document.querySelector(`[data-id="${dataId}"]`);
+        if (target) {
+            target.scrollIntoView({ behavior: "smooth", block: "center" });
+        }
+    }
+});
+
+
 
 
 

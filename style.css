@@ -17,6 +17,18 @@ header {
     border-bottom: 2px solid #ccc;
 }
 
+header input[type="text"] {
+    width: 100%;
+    max-width: 20rem;
+    padding: 0.5rem 0.75rem;	
+    font-size: 1rem;
+    color: #222;
+    background-color: #fff;	
+    border: 2px solid #ccc;
+    border-radius: 0.5rem;
+}
+
+
 header section input[type="text"] + section {
     display: flex;
     flex-direction: column;
@@ -153,4 +165,5 @@ button[data-id="eliminar_btn"]:hover {
         gap: 0.5rem;
         margin-top: 1.85rem;
     }
+
 }

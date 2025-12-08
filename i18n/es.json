@@ -21,6 +21,12 @@
   {"dataId":"index_titulo","text":"Web personal","url":"/index.html"},
   {"dataId":"img_alt_asturias","text":"Bandera del Principado de Asturias","url":"/index.html"},
 
+  {"dataId":"migas_web","text":"Sitio web personal","url":"/index.html"},
+  {"dataId":"migas_inicio","text":"Inicio","url":"/index.html"},
+  {"dataId":"migas_aficiones","text":"Aficiones","url":"/index.html"},
+  {"dataId":"migas_tech","text":"Tecnologías favoritas","url":"/index.html"},
+  {"dataId":"migas_exp","text":"Experiencia","url":"/index.html"},
+
   {"dataId":"aficiones_titulo","text":"Sitio web personal - Aficiones","url":"/index.html"},
   {"dataId":"aficiones_h1","text":"Sitio web personal - Aficiones","url":"/index.html"},
   {"dataId":"mis_aficiones","text":"Mis aficiones","url":"/aficiones.html"},

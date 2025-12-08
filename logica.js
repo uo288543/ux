@@ -5,7 +5,7 @@ let translations = {};
 
 async function loadLanguage(lang) {
     document.documentElement.lang = lang; //cambiar atributo lang del html
-    const res = await fetch(`/i18n/${lang}.json`); //cargar el json correspondiente al idioma seleccionado
+    const res = await fetch(`/ux/i18n/${lang}.json`); //cargar el json correspondiente al idioma seleccionado
     translations = await res.json();
 
     //cambiar textos de los elementos cuyo data-id coincida con los del json
@@ -82,7 +82,7 @@ async function search(aBuscar) {
         //crear un enlace a la página correspondiente por cada resultado encontrado
         results.forEach(item => {
             const link = document.createElement('a');
-            link.href = item.url + "?dataId=" + item.dataId;
+            link.href = '/ux' + item.url + "?dataId=" + item.dataId;
             link.textContent = item.text + ' (' + item.url + ')';
             resultsContainer.appendChild(link);
         });
@@ -118,3 +118,4 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 });
+

@@ -27,6 +27,7 @@
   {"dataId":"migas_tech","text":"Tecnologías favoritas","url":"/index.html"},
   {"dataId":"migas_exp","text":"Experiencia","url":"/index.html"},
   {"dataId":"lang_titulo","text":"Idioma","url":"/index.html"},
+  {"dataId":"label_buscador","text":"Buscar en la web","url":"/index.html"},
 
   {"dataId":"aficiones_titulo","text":"Sitio web personal - Aficiones","url":"/index.html"},
   {"dataId":"aficiones_h1","text":"Sitio web personal - Aficiones","url":"/index.html"},

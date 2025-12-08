@@ -17,18 +17,6 @@ header {
     border-bottom: 2px solid #ccc;
 }
 
-header input[type="text"] {
-    width: 100%;
-    max-width: 20rem;
-    padding: 0.5rem 0.75rem;	
-    font-size: 1rem;
-    color: #222;
-    background-color: #fff;	
-    border: 2px solid #ccc;
-    border-radius: 0.5rem;
-}
-
-
 header section input[type="text"] + section {
     display: flex;
     flex-direction: column;
@@ -77,6 +65,17 @@ footer {
     padding: 1em;
     border-top: 2px solid #ccc;
     margin-top: 2em;
+}
+
+header input[type="text"] {
+    width: 100%;
+    max-width: 20rem;
+    padding: 0.5rem 0.75rem;	
+    font-size: 1rem;
+    color: #222;
+    background-color: #fff;	
+    border: 2px solid #ccc;
+    border-radius: 0.5rem;
 }
 
 main section {
@@ -138,6 +137,19 @@ button[data-id="eliminar_btn"]:hover {
     background-color: #7a1818;
 }
 
+nav[aria-label="Breadcrumb"] ol {
+    list-style: none;
+    display: flex;
+    gap: .5rem;
+}
+
+nav[aria-label="Breadcrumb"] li+li::before {
+    content: "›";
+    margin-right: .5rem;
+    color: #888;
+}
+
+
 /* Redifiniciones para adaptabilidad móvil */
 @media (max-width: 600px) {
 
@@ -166,4 +178,8 @@ button[data-id="eliminar_btn"]:hover {
         margin-top: 1.85rem;
     }
 
+    header input[type="text"] {
+        width: auto;
+        max-width: none;
+    }
 }

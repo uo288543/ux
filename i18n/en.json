@@ -20,6 +20,12 @@
   {"dataId":"index_h1","text":"Personal website - Landing page","url":"/index.html"},
   {"dataId":"index_titulo","text":"Personal website","url":"/index.html"},
   {"dataId":"img_alt_asturias","text":"Flag of Principado de Asturias","url":"/index.html"},
+
+  {"dataId":"migas_web","text":"Personal website","url":"/index.html"},
+  {"dataId":"migas_inicio","text":"Landing page","url":"/index.html"},
+  {"dataId":"migas_aficiones","text":"Hobbies","url":"/index.html"},
+  {"dataId":"migas_tech","text":"Favorite Technologies","url":"/index.html"},
+  {"dataId":"migas_exp","text":"Experience","url":"/index.html"},
   
   {"dataId":"aficiones_titulo","text":"Personal website - Hobbies","url":"/index.html"},
   {"dataId":"aficiones_h1","text":"Personal website - Hobbies","url":"/index.html"},

@@ -16,7 +16,11 @@ header {
     text-align: center;
     border-bottom: 2px solid #ccc;
 }
-
+section label {
+    font-weight: bold;
+    margin-right: 0.5rem;
+    font-size: 1.2rem;
+}
 header section input[type="text"] + section {
     display: flex;
     flex-direction: column;
@@ -183,3 +187,4 @@ nav[aria-label="Breadcrumb"] li+li::before {
         max-width: none;
     }
 }
+

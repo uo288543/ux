@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // ---------------- Buscador ----------------
 
-const searchSection = document.querySelector('header section input[type="text"]').closest('section');
+const searchSection = document.querySelector('header form input[type="text"]').closest('form');
 const searchInput = searchSection.querySelector('input[type="text"]');
 const searchBtn = searchSection.querySelector('button');
 
@@ -118,4 +118,5 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 });
+
 

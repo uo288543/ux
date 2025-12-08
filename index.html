@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-id="index_titulo">Web personal</title>
+    <link href="style.css" rel="Stylesheet">
+</head>
+<body>
+    <header>
+        <h1 data-id="index_h1">Sitio web personal - Inicio</h1>
+
+        <section>
+            <h2 data-id="lang_titulo">Idioma</h2>
+            <button data-id="btn_es" data-lang="es">ESPAÑOL</button>
+            <button data-id="btn_en" data-lang="en">ENGLISH</button>
+        </section>
+
+        <nav>
+            <ul>
+                <li><a title="Información personal general" href="index.html" data-id="nav_inicio">🏠 Inicio</a></li>
+                <li><a title="Datos sobre gustos y aficiones" href="aficiones.html" data-id="nav_aficiones">🎮 Aficiones</a></li>
+                <li><a title="Tecnologías favoritas para desarrollo web" href="tecnologias_favoritas.html" data-id="nav_tech">🎮 Tecnologías favoritas</a></li>
+                <li><a title="Estudios y experiencia profesional" href="experiencia.html" data-id="nav_experiencia">💼 Experiencia</a></li>
+            </ul>
+        </nav>
+
+        <section>
+            <label for="buscador_web">Buscar en la web</label>
+            <input id="buscador_web" type="text" data-i18n-placeholder="buscar_placeholder" placeholder="Buscar contenido...">
+            <button data-id="buscar_btn">Buscar</button>
+            <button data-id="eliminar_btn">Eliminar</button>
+        </section>
+    </header>
+
+    <nav aria-label="Breadcrumb">
+        <ol>
+            <li>
+                <a href="/"><span data-id="migas_web">Sitio web personal</span></a>
+            </li>
+            <li aria-current="page">
+                <span data-id="migas_inicio">Inicio</span>
+            </li>
+        </ol>
+    </nav>
+
+    <main>
+        <section>
+            <h2 data-id="quien_soy">¿Quién soy?</h2>
+            <p data-id="texto_quien_soy">Soy Hugo Méndez Fernández, tengo 22 años, ingeniero de software, y alumno del Máster en Ingeniería Web.</p>
+            <p>
+                <span data-id="contacto">La forma más rápida de contactarme es mediante mi correo electrónico:</span>
+                <a href="mailto:uo288543@uniovi.es">uo288543@uniovi.es</a>
+            </p>
+            <p>
+                <span data-id="linkedin">Puedes encontrarme en </span>
+                <a href="https://es.linkedin.com/in/hugo-m%C3%A9ndez-fern%C3%A1ndez-634664301" data-id="linkedin_link">LinkedIn</a>
+            </p>
+        </section>
+
+        <section>
+            <h2 data-id="datos_sobre_mi">Datos sobre mí</h2>
+            <p data-id="origen">Soy del occidente de Asturias.</p>
+            <p data-id="color_favorito">Mi color favorito es el rojo.</p>
+            <p data-id="animal_favorito">Mi animal favorito es el oso panda.</p>
+            <img src="img/bandera_asturias.webp" alt="Bandera del Principado de Asturias" data-id="img_alt_asturias">
+        </section>
+
+    </main>
+
+    <footer>
+        <p data-id="footer">&copy; Hugo Méndez Fernández - Última actualización: 09/12/2025</p>
+    </footer>
+
+    <script src="logica.js"></script>
+</body>
+</html>

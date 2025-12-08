@@ -1,10 +1,10 @@
 [
   {"dataId":"titulo_pagina","text":"Personal Website","url":"/index.html"},
   {"dataId":"encabezado_principal","text":"Personal Website - Home","url":"/index.html"},
-  {"dataId":"nav_inicio","text":"Home","url":"/index.html"},
-  {"dataId":"nav_aficiones","text":"Hobbies","url":"/aficiones.html"},
-  {"dataId":"nav_tech","text":"Favorite Technologies","url":"/tecnologías_favoritas.html"},
-  {"dataId":"nav_experiencia","text":"Experience","url":"/experiencia.html"},
+  {"dataId":"nav_inicio","text":"🏠 Home","url":"/index.html"},
+  {"dataId":"nav_aficiones","text":"🎮 Hobbies","url":"/aficiones.html"},
+  {"dataId":"nav_tech","text":"💻 Favorite Technologies","url":"/tecnologías_favoritas.html"},
+  {"dataId":"nav_experiencia","text":"💼 Experience","url":"/experiencia.html"},
   {"dataId":"quien_soy","text":"Who am I?","url":"/index.html"},
   {"dataId":"texto_quien_soy","text":"I am Hugo Méndez Fernández, 22 years old, software engineer, and a student of the Web Engineering Master's program.","url":"/index.html"},
   {"dataId":"contacto","text":"The fastest way to contact me is via my email:","url":"/index.html"},
@@ -26,6 +26,7 @@
   {"dataId":"migas_aficiones","text":"Hobbies","url":"/index.html"},
   {"dataId":"migas_tech","text":"Favorite Technologies","url":"/index.html"},
   {"dataId":"migas_exp","text":"Experience","url":"/index.html"},
+  {"dataId":"lang_titulo","text":"Language","url":"/index.html"},
   
   {"dataId":"aficiones_titulo","text":"Personal website - Hobbies","url":"/index.html"},
   {"dataId":"aficiones_h1","text":"Personal website - Hobbies","url":"/index.html"},
